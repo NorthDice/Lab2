@@ -3,4 +3,4 @@ const errorResponder = (err, request, response, next) => {
    response.status(err.statusCode).send(err.message)
 }
 
-module.exports = { errorResponder };
+export { errorResponder };

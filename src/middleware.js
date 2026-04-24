@@ -11,4 +11,4 @@ function blockSpecialBrand(req, res, next) {
    }
 }
 
-module.exports = { logRequest, blockSpecialBrand };
+export { logRequest, blockSpecialBrand };
